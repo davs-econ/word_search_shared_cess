@@ -1,0 +1,16 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Sección 6
+{% endblock %}
+
+{% block content %}
+
+
+    {% formfield player.words_found with label="*¿Cuántas palabras válidas lograste encontrar? Obtendrás 1 punto por cada palabra que indiques." %}
+
+    <input class="btn btn-primary btn-large btn-primary next-button" type="submit" value="Siguiente">
+
+{% endblock %}
+
